@@ -1,0 +1,26 @@
+package com.ssw.int1;
+
+public class ComboStaticConstructInstanceInit {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
+
+class csciiOne {
+	// static initializer block
+	static {
+		System.out.println("!!! csciiOne ::: static initializer block");
+	}
+	// instance initializer block	
+	{
+		System.out.println("!!! csciiOne ::: instance initializer block");
+	}
+	
+	public csciiOne() {
+		System.out.println("!!! csciiOne ::: constructor block");
+	}
+	
+}

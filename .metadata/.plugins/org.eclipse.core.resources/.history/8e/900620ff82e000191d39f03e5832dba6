@@ -1,0 +1,14 @@
+package com.ssw.int1;
+
+public class StaticBlockInheritance {
+	public static void main(String[] args) {
+		
+	}
+}
+
+class A {
+	static {
+		System.out.println("A");
+	}
+}
+

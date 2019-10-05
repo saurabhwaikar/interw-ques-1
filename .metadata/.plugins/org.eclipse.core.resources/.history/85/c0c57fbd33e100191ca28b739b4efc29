@@ -1,0 +1,34 @@
+package com.ssw.int1;
+
+/**
+ * 
+ * @author saurabh
+ * 
+ * 
+ *
+ */
+public class InheritanceWithConstructor {
+
+	public static void main(String[] args) {
+		inhConstC c = new inhConstC();
+	}
+
+}
+
+class inhConstA {
+	public inhConstA () {
+		System.out.println("!!! inhConstA : Constructor");
+	}
+}
+
+class inhConstB extends inhConstA{
+	public inhConstB () {
+		System.out.println("!!! inhConstB : Constructor");
+	}
+}
+
+class inhConstC extends inhConstB{
+	public inhConstC () {
+		System.out.println("!!! inhConstC : Constructor");
+	}
+}

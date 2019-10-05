@@ -1,0 +1,16 @@
+package com.ssw.int1;
+
+/*
+ * get output when two strings are created i) first with string literal
+ * ii) second with new string object
+ */
+public class StringLiteralObjectOne {
+
+	public static void main(String[] args) {
+		String s1 = "java";
+		String s2 = new String("JAVA");
+		System.out.println(s2=s1); // question is what will be the output
+
+	}
+
+}

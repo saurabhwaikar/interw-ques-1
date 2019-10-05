@@ -1,0 +1,10 @@
+package com.ssw.int1;
+
+public class InheritanceWithConstructor {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}
