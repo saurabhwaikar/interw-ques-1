@@ -1,8 +1,0 @@
-package com.ssw.int1;
-
-public class PrePostIncrement2 {
-	public static void main(String[] args) {
-		
-	}
-
-}

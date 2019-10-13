@@ -6,7 +6,7 @@ public class StringLiteralObjectOne {
 	public static void main(String[] args) {
 		methodOne();
 		methodTwo();
-
+		methodThree();
 	}
 	
 	/*
@@ -26,5 +26,14 @@ public class StringLiteralObjectOne {
 		int c = 6;
 		System.out.println(a = b = c); // question is what will be the output
 	}
-
+	
+	public static void methodThree() {
+		System.out.println("\nOutput of MethodThree");
+		if("cat" == "cat") {
+			System.out.println("Both strings equal");
+		} else {
+			System.out.println("Both strings are not equal");
+		}
+		
+	}
 }
