@@ -1,4 +1,4 @@
-package com.ssw.int1;
+package my.collection.prog;
 
 import java.util.TreeMap;
 

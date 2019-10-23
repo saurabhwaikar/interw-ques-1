@@ -22,7 +22,7 @@ public class PrePostIncrement1 {
 		System.out.println(++i);
 		System.out.println(i);
 		System.out.println(i++);
-		System.out.println(i++ + ++i);
+		System.out.println(++i + i++);
 	}
 	
 	public static void methodThree() {

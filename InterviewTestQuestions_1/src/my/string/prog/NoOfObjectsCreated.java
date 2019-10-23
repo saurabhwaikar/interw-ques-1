@@ -1,5 +1,6 @@
-package com.ssw.int1;
+package my.string.prog;
 
+// need explanation
 public class NoOfObjectsCreated {
 
 	public static void main(String[] args) {

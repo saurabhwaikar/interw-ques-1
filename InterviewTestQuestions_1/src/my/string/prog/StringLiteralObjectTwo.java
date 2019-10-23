@@ -1,4 +1,4 @@
-package com.ssw.int1;
+package my.string.prog;
 
 /**
  * @author saurabh
