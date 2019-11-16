@@ -1,14 +1,22 @@
-package my.string.prog;
+package my.prog.collection;
 
 import java.util.HashSet;
-import java.util.LinkedHashSet;
 import java.util.Set;
 
-public class StringDistinctCharacters {
+/**
+ * 
+ * @author saurabh
+ *
+ * This questions asked on StackOverflow
+ * https://stackoverflow.com/questions/58335354/understanding-sorting-behaviour-of-character-in-hashset
+ */
+public class HashSetNoGuarateeOfInsertionOrder {
+
 	public static void main(String[] args) {
-		String str = "zbaaaaabcb";
+		String str = "zbaAacb";
 		// Set<Character> uniqCharSet = uniqueCharSet();
 		System.out.println("Unique Characters are : " + uniqueCharSet(str));
+
 	}
 	
 	public static Set<Character> uniqueCharSet(String str) {
@@ -19,6 +27,10 @@ public class StringDistinctCharacters {
 		for(int i=0; i<str.length(); i++) {
 			charSet.add(str.charAt(i));
 		}
+		for(Character c : charSet) {
+			System.out.println("Hashcode of " + c + " is : " +c.hashCode());
+		}
 		return charSet;
 	}
+
 }

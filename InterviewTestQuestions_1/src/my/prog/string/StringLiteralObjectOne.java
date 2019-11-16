@@ -1,4 +1,4 @@
-package my.string.prog;
+package my.prog.string;
 
 
 public class StringLiteralObjectOne {
