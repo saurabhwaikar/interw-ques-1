@@ -1,0 +1,48 @@
+1) in inheritance, if methods are throwing exception, how will they behave?
+
+is below code valid?
+/**
+* this in context of child class has unchecked exception 
+* and parent class have exception
+*/
+class base {
+	public void show() throws Exception {
+		System.out.println("base");
+	}
+}
+
+class child extends base {
+	public void show() throws NullPointerException {
+		System.out.println("child");
+	}
+}
+
+2) If inner class is created, who can access inner class's data members ?
+	Options: 1) upper class 2) inner class 3) both
+3) If inner class is created, who can access inner class's members functions?
+	Options: 1) upper class 2) inner class 3) both
+
+4) 
+byte a="47";
+byte b = 47;
+long d = "47";
+long e = 47;
+
+
+if(a==b)
+	System.out.println("ab");
+
+if(a==d)
+	System.out.println("ad");
+
+if(b==d)
+	System.out.println("bd");
+
+
+5) Can we throw exception of child class (of class bb)?
+
+class aa extends Exception {	
+}
+
+class bb extends aa {
+}
